@@ -3,7 +3,7 @@
 This project demonstrates a data warehousing solution built using PostgreSQL and the Medallion Architecture. It follows a structured approach to data processing, ensuring data quality, consistency, and efficiency.
 
 ---
-## 🏗️ Data Architecture
+## Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 ![High-Level Architecture](src/High%20Level%20Architecture.png)
@@ -15,7 +15,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 This project involves:
 
