@@ -23,3 +23,13 @@ This project involves:
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 
+### Data Flow 
+![Data Flow](src/DataFlow.png)
+
+The Data Flow diagram visually represents how data moves through different layers of the Medallion Architecture. It showcases the source systems (CRM & ERP) and their journey through the Bronze, Silver, and Gold layers, ensuring a structured and efficient data transformation process.
+
+
+### Data Model
+![Data Model](src/DataModel.png)
+
+The Data Model diagram illustrates the relationships between fact and dimension tables in the Gold Layer. It follows a star schema, optimizing the data for reporting and analytics. The fact_sales table stores transactional data, while dim_customers and dim_products provide descriptive attributes for deeper insights.
